@@ -1,0 +1,20 @@
+array = [i for i in range(10)]
+print(array)
+# append()
+array.append(-1)
+print(array)
+# sort()
+array.sort(reverse = True)
+print(array)
+# reverse()
+array.reverse()
+print(array)
+# insert(i,N) 인덱스(i)에 값(N) 삽입
+array.insert(0,3)
+print(array)
+# count(N)
+print(array.count(3))
+# remove(N)
+# 단 remove는 배열에서 단 하나만 제거
+array.remove(3)
+print(array)
