@@ -12,7 +12,7 @@ def prime_list(n):
     # 소수 목록 산출
     return [i for i in range(2, n) if sieve[i] == True]
 
-M, N = map(int,input().split())
+M, N = map(int,input().split()) 
 
 pl = prime_list(N+1)
 
