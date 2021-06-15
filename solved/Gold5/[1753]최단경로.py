@@ -14,7 +14,7 @@ for i in range(e):
 def dijkstra(start):  
     q = []
     distance[start] = 0
-    heapq.heappush(q,(0,start))
+    heapq.heappush(q,(0,start)) 
 
     while q:
         cost, now = heapq.heappop(q)
