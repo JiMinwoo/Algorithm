@@ -20,7 +20,7 @@ def dfs(cnt,x,y,d):
     if nx < 0 or ny < 0 or nx >= M or ny >= N:
         dfs(cnt,x,y,d+1)
     if visited[nx][ny] == True or graph[nx][ny] == 1:
-        dfs(cnt,x,y,d+1)
+        dfs(cnt,x,y,d+1)   
     if graph[nx][ny] == 0:
         visited[nx][ny] = True
         print(nx,ny) 

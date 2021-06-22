@@ -11,6 +11,7 @@ for i in range(e):
     a,b,c = map(int, sys.stdin.readline().split())
     graph[a].append([b,c])
 
+
 def dijkstra(start):  
     q = [] 
     distance[start] = 0
