@@ -23,7 +23,7 @@ def dfs(cnt,x,y,d):
         dfs(cnt,x,y,d+1)
     if graph[nx][ny] == 0:
         visited[nx][ny] = True
-        print(nx,ny)
+        print(nx,ny) 
         cnt += 1
         dfs(cnt,nx,ny,d+1) 
     if graph[x+back_x[d%4]][y+back_x[d%4]] == 0:
