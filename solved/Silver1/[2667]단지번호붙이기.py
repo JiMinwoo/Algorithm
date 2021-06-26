@@ -12,8 +12,7 @@ def bfs(a,b):
 
     while q:
         cnt += 1
-
-        x,y = q.pop()    
+        x,y = q.pop()     
 
         for i in range(4):
             nx = x + dx[i]
