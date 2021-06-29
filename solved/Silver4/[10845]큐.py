@@ -6,7 +6,6 @@ que = deque()
 
 for _ in range(N):
     check = list(map(str,test().rstrip().split()))
-
     if check[0] == "push":
         que.append(check[1])
     elif check[0] == "pop":
