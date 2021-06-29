@@ -9,4 +9,5 @@ for i in range(N):
 stu = sorted(stu, key=lambda x : (-x[1], x[2], -x[3], x[0]))
 
 for ans in stu:
+    
     print(ans[0])

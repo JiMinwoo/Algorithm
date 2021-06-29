@@ -10,7 +10,7 @@ visited = [False] * 100001
 visited[subin] = True
 
 while q:
-    lo = q.popleft()
+    lo = q.popleft() 
 
     if lo == sis:
         print(location[lo])
