@@ -13,7 +13,7 @@ for _ in range(N):
             print(-1)
         else:
             print(que.popleft())
-    elif check[0] == "size":
+    elif check[0] == "size": 
         print(len(que))
     elif check[0] == "empty":
         if len(que) == 0:
