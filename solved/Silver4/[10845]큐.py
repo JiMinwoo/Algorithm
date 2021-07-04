@@ -11,7 +11,7 @@ for _ in range(N):
     elif check[0] == "pop":
         if len(que) == 0:
             print(-1)
-        else:
+        else: 
             print(que.popleft())
     elif check[0] == "size": 
         print(len(que))
