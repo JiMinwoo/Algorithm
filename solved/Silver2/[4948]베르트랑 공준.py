@@ -9,10 +9,12 @@ def prime_list(n):
             for j in range(i+i, n, i):
                 sieve[j] = False
         
+        
     print(cnt)
+
+for i in range(9):1111331313131
 
     return [i for i in range(2, n) if sieve[i] == True]
 
 print(prime_list(13))
-print(prime_list(100)) 
-
+print(prime_list(100)) 18
