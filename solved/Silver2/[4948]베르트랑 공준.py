@@ -9,7 +9,6 @@ def prime_list(n):
             for j in range(i+i, n, i):
                 sieve[j] = False
         
-        
     print(cnt)
 
 for i in range(9):1111331313131
