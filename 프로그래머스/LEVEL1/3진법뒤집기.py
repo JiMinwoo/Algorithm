@@ -10,4 +10,3 @@ def solution(n):
     return answer
 
 print(solution(45))
-
