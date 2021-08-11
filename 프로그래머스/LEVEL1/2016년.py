@@ -17,5 +17,6 @@ def solution(a, b):
     answer = yo[(b%7)-1]
 
     return answer
+    
 
 print(solution(1,1))
